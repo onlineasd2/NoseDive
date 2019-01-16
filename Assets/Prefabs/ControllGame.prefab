@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1755038795864208}
+  m_IsPrefabAsset: 1
+--- !u!1 &1755038795864208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4275984579173154}
+  - component: {fileID: 114533561106314312}
+  - component: {fileID: 320582632857293238}
+  m_Layer: 0
+  m_Name: ControllGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4275984579173154
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1755038795864208}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114533561106314312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1755038795864208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230fb7153efb882448131f2380ec304a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStart: 0
+  playFirstScene: 0
+  spawnWallsCheck: 0
+  gameOver: 0
+  playerPrefab: {fileID: 1380943812189852, guid: bc8f7b369c74742469c3868c5a5648d7,
+    type: 2}
+  player: {fileID: 0}
+  spawnWalls: {fileID: 0}
+  firstWall: {fileID: 0}
+  creater: {fileID: 0}
+  walls:
+  - {fileID: 1872405090775782, guid: 67ababd0e7c049e40a13de158db030c8, type: 2}
+  - {fileID: 1434206260908656, guid: 6556e2dc17acedc4994ca18f899d77c7, type: 2}
+  joystick: {fileID: 0}
+  director: {fileID: 320582632857293238}
+  animatorGameOver: {fileID: 0}
+  t: 0
+--- !u!320 &320582632857293238
+PlayableDirector:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1755038795864208}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 2e2994848238b3c459a70e663cb43a21, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 0
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 114406358141716142, guid: 2e2994848238b3c459a70e663cb43a21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 114581026902555300, guid: 2e2994848238b3c459a70e663cb43a21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 114629758379044104, guid: 2e2994848238b3c459a70e663cb43a21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 114112301127225270, guid: 2e2994848238b3c459a70e663cb43a21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 114421012776456040, guid: 2e2994848238b3c459a70e663cb43a21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 1755038795864208}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References:
+    - e89c1683208be614d8ba4236fe157b0f: {fileID: 1755038795864208}
+    - cecfd97c4a0b3a84985b09e53513dce9: {fileID: 0}
+    - 29df6aa7229a1114cb23ca20af8464e2: {fileID: 1755038795864208}
+    - 7dd487e455e37c4488d184816efb381e: {fileID: 0}
+    - 9be471bbab4330244afae0123b869e7f: {fileID: 0}
